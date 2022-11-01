@@ -2,7 +2,7 @@ package com.example.quizappforassignment2;
 
 public class QnA {
 
-    public static String question[] = {
+    public static String[] question = {
             "Which state is the capital of Malaysia?",
             "Which of the following is not a programming languages?",
             "Which animals are endangered species?",
@@ -10,7 +10,7 @@ public class QnA {
             "Which company owns Apple?"
     };
 
-    public static String choices[][] = {
+    public static String[][] choices = {
             {"Kuala Lumpur","Penang","Melaka","Sabah"},
             {"Java","C++","Python","Chinese"},
             {"Amur Leopard","Cat","Dog","Chicken"},
@@ -18,7 +18,7 @@ public class QnA {
             {"SAMSUNG","Apple","Huawei","Playstation"}
     };
 
-    public static String correctAnswers[]={
+    public static String[] correctAnswers ={
             "Kuala Lumpur",
             "Chinese",
             "Amur Leopard",

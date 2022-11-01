@@ -13,6 +13,13 @@
         android:theme="@style/Theme.QuizAppForAssignment2"
         tools:targetApi="31">
         <activity
+            android:name=".QnAActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name=".QnA"
             android:exported="false">
             <meta-data
