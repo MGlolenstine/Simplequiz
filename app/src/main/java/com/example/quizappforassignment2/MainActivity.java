@@ -21,5 +21,10 @@ public class MainActivity extends AppCompatActivity {
             Intent intent = new Intent(this, QnAActivity.class);
             startActivity(intent);
         });
+
+        findViewById(R.id.about).setOnClickListener(view -> {
+            Intent intent = new Intent(this, AboutUs.class);
+            startActivity(intent);
+        });
     }
 }
